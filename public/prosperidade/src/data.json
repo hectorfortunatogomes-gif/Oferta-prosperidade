@@ -1,0 +1,275 @@
+{
+  "questions": [
+    {
+      "type": "number",
+      "text": "[NAME], if you looked at your bank account today, how much would you have available?",
+      "placeholder": "Enter numbers only (e.g. 1500)"
+    },
+    {
+      "type": "choice",
+      "text": "[NAME], do you feel like you're living the life God dreamed for you?",
+      "options": [
+        "Yes, but I know I can live more",
+        "No, I feel I'm far from it",
+        "Sometimes I wonder about this..."
+      ]
+    },
+    {
+      "type": "choice",
+      "text": "How often do you feel an emptiness in your chest... as if something is missing?",
+      "options": [
+        "Every day",
+        "A few times a week",
+        "Rarely"
+      ]
+    },
+    {
+      "type": "choice",
+      "text": "Do you feel stuck in the same negative cycles for years?",
+      "options": [
+        "Yes, it feels like a loop",
+        "Sometimes I feel this",
+        "I'm not sure"
+      ]
+    },
+    {
+      "type": "choice",
+      "text": "If the life you live today was the direct result of your own choices... would you be satisfied?",
+      "options": [
+        "No, I want to change",
+        "More or less",
+        "Yes, but I want more"
+      ]
+    },
+    {
+      "type": "choice",
+      "text": "How many times have you asked God for a sign to change your life?",
+      "options": [
+        "Many times",
+        "A few times",
+        "I don't usually ask for signs",
+        "This is my first time"
+      ]
+    },
+    {
+      "type": "choice",
+      "text": "[NAME], if today were your final faith test… what would you do right now?",
+      "options": [
+        "I would take action like someone who believes in miracles",
+        "I'd take a small, scared step... but still take a step",
+        "I'd stay frozen... one more time... just like the other times I gave up"
+      ]
+    },
+    {
+      "type": "choice",
+      "text": "Do you believe God can transform your life with just one single decision from you?",
+      "options": [
+        "Yes, absolutely",
+        "I have doubts",
+        "I don't know"
+      ]
+    },
+    {
+      "type": "choice",
+      "text": "Are you willing to make TODAY your day of faith and responsibility for your new life?",
+      "options": [
+        "Yes, I'm ready",
+        "I need a clearer sign",
+        "No"
+      ]
+    },
+    {
+      "type": "choice",
+      "text": "If God gave you the chance to win your dream home… what would it look like?",
+      "options": [
+        "Large, with several rooms",
+        "A modern apartment",
+        "A simple house, but full of peace",
+        "I don't think much about it"
+      ]
+    },
+    {
+      "type": "choice",
+      "text": "What car do you imagine parked in front of your ideal home?",
+      "options": [
+        "A luxury SUV",
+        "A comfortable sedan",
+        "A simple but reliable car",
+        "I don't care about cars"
+      ]
+    },
+    {
+      "type": "choice",
+      "text": "What is your family life like today?",
+      "options": [
+        "I feel there's a lack of unity",
+        "I miss someone special",
+        "I have a good family, but we can be happier",
+        "I don't think much about it"
+      ]
+    },
+    {
+      "type": "choice",
+      "text": "If you could wake up tomorrow with perfect health… what would be different?",
+      "options": [
+        "More energy to chase my dreams",
+        "Being able to play sports without pain",
+        "Feeling good about my body",
+        "My health is good, but I want more vitality"
+      ]
+    },
+    {
+      "type": "choice",
+      "text": "If you received a large sum of money today… what would you do first?",
+      "options": [
+        "Pay off my debts",
+        "Buy a house",
+        "Fulfill my family's dream",
+        "Invest in my future"
+      ]
+    },
+    {
+      "type": "choice",
+      "text": "Imagine that 30 days from now, your life is 100% transformed. Which of these images represents your future?",
+      "options": [
+        "Luxury home and financial freedom",
+        "Perfect health and vitality",
+        "Happy family and love",
+        "Travel and new experiences"
+      ]
+    },
+    {
+      "type": "choice",
+      "text": "Do you feel there's something spiritual or emotional blocking you?",
+      "options": [
+        "Yes, a weight I can't explain",
+        "Sometimes I feel this",
+        "No"
+      ]
+    },
+    {
+      "type": "choice",
+      "text": "Which of these statements best describes you?",
+      "options": [
+        "I feel cursed, nothing ever works out for me",
+        "My life has never been easy",
+        "I don't feel worthy",
+        "I lack energy and motivation"
+      ]
+    },
+    {
+      "type": "choice",
+      "text": "Do you accept to be part of a group of people who decided to create their dream life through the power of faith?",
+      "options": [
+        "Yes, I accept",
+        "I'm not sure",
+        "I need to think about it"
+      ]
+    },
+    {
+      "type": "choice",
+      "text": "If you could change just one thing right now... what would it be?",
+      "options": [
+        "My financial situation",
+        "My relationships",
+        "My health",
+        "My purpose in life"
+      ]
+    },
+    {
+      "type": "choice",
+      "text": "If God gave you the chance to start over today… would you accept?",
+      "options": [
+        "Yes, without hesitation",
+        "Yes, but with some fear",
+        "I'm not ready"
+      ]
+    }
+  ],
+  "overlays": {
+    "mult": {
+      "name": "100x Multiplication",
+      "image": "/prosperidade/assets/original/100X-god.jpg",
+      "sub": "",
+      "button": "⚡ YES! I receive 100x more!"
+    },
+    "future": {
+      "name": "I Choose My Future",
+      "image": "/prosperidade/assets/original/I-choose-my-future.jpg",
+      "sub": "The power to change your life is in your hands!",
+      "button": "⚡ Continue Evolution"
+    },
+    "faith": {
+      "name": "Faith Decision",
+      "image": "/prosperidade/assets/original/Faith.jpg",
+      "sub": "🙏 Your Faith Will Move Mountains",
+      "button": "⚡ Continue Evolution"
+    },
+    "home": {
+      "name": "Dream Home",
+      "image": "/prosperidade/assets/original/dream-house.jpg",
+      "sub": "🏠 Your Dream Home Is on Its Way",
+      "button": "⚡ Continue Evolution"
+    },
+    "car": {
+      "name": "Dream Car",
+      "image": "/prosperidade/assets/original/Dream-car.jpg",
+      "sub": "🚗 Your Dream Car Is Reserved",
+      "button": "⚡ Continue Evolution"
+    },
+    "family": {
+      "name": "Happy Family",
+      "image": "/prosperidade/assets/original/family.jpg",
+      "sub": "👨‍👩‍👧‍👦 The Happy Family You Deserve",
+      "button": "⚡ Continue Evolution"
+    },
+    "health": {
+      "name": "Perfect Health",
+      "image": "/prosperidade/assets/original/health.jpg",
+      "sub": "❤️ Your Perfect Health Is Activated",
+      "button": "⚡ Continue Evolution"
+    },
+    "abundance": {
+      "name": "Abundance",
+      "image": "/prosperidade/assets/original/abundance.jpg",
+      "sub": "💸 Imagine… $277,000 being deposited into your account right now!",
+      "button": "⚡ YES! I believe, I receive!"
+    },
+    "boost": {
+      "name": "100x Boost",
+      "image": "/prosperidade/assets/original/100x-boost.jpg",
+      "sub": "⚡ Your Manifestation Power Just Multiplied by 100x",
+      "button": "⚡ Continue Evolution"
+    },
+    "blocks": {
+      "name": "Blocks Broken",
+      "image": "/prosperidade/assets/original/blocks-broken.jpg",
+      "sub": "🔓 All Mental Blocks Have Been Removed",
+      "button": "⚡ Continue Evolution"
+    }
+  },
+  "milestones": {
+    "0": "mult",
+    "4": "future",
+    "7": "faith",
+    "9": "home",
+    "10": "car",
+    "11": "family",
+    "12": "health",
+    "13": "abundance",
+    "14": "boost",
+    "15": "blocks"
+  },
+  "unlockOrder": [
+    "future",
+    "faith",
+    "home",
+    "car",
+    "family",
+    "health",
+    "abundance",
+    "boost",
+    "blocks",
+    "mult"
+  ]
+}
