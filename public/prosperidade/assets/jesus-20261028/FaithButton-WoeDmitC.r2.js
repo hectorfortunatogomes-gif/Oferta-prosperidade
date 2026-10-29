@@ -1,0 +1,1 @@
+import{r as e}from"./useRouter-Dpb7RwMI.r2.js";import{t}from"./utils-gfW5ZYPN.r2.js";var n=e();function r({className:e,...r}){return(0,n.jsx)(`button`,{className:t(`faith-button`,e),...r})}export{r as t};
