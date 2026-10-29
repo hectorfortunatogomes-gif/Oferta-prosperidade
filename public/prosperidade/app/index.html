@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f7f7f2">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="description" content="Your personal reading, practice and reflection space.">
+  <title>Time to Thrive</title>
+  <meta name="prosperidade-app-version" content="thrive-light-20261006T024137Z">
+  <link rel="icon" type="image/png" href="./assets/blank.png">
+  <link rel="stylesheet" href="./thrive.8eaf7ef42946.css">
+  <script type="module" src="./thrive.898ed48743da.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <section id="access" class="access" hidden>
+    <div class="access-inner">
+      <a class="brand access-brand" href="#today" aria-label="Time to Thrive home"><span class="brand-mark" aria-hidden="true">t.</span><span>Time to Thrive</span></a>
+      <h1>Welcome back.</h1>
+      <p class="access-intro">A little time for yourself.</p>
+      <form id="access-form" novalidate>
+        <label class="field" for="member-name"><span>Your name</span><input id="member-name" name="name" type="text" autocomplete="given-name" maxlength="60" required placeholder="First name" aria-describedby="name-error"><small id="name-error" class="field-error" hidden></small></label>
+        <label class="field" for="member-email"><span>Email address</span><input id="member-email" name="email" type="email" autocomplete="email" inputmode="email" autocapitalize="none" spellcheck="false" maxlength="254" required placeholder="you@example.com" aria-describedby="email-error"><small id="email-error" class="field-error" hidden></small></label>
+        <button class="button primary access-submit" type="submit">Continue <span aria-hidden="true">→</span></button>
+      </form>
+      <p class="access-footnote">Your notes stay on this device.</p>
+    </div>
+  </section>
+  <div id="workspace" class="workspace" hidden>
+    <aside class="sidebar">
+      <a href="#today" class="brand"><span class="brand-mark" aria-hidden="true">t.</span><span>Time to Thrive</span></a>
+      <p class="nav-eyebrow">YOUR SPACE</p>
+      <nav id="desktop-nav" class="desktop-nav" aria-label="Main navigation"></nav>
+      <div class="side-footer">
+        <p>Learn. Reflect. Begin again.</p>
+        <button id="side-account" class="side-account" data-account type="button"><span class="avatar" data-initial aria-hidden="true">T</span><span><strong data-name>Member</strong><small>My account</small></span></button>
+      </div>
+    </aside>
+    <div class="main-wrap">
+      <header class="topbar"><a href="#today" class="brand mobile-brand"><span class="brand-mark" aria-hidden="true">t.</span><span>Time to Thrive</span></a><span class="top-context" id="top-context">Your daily space</span><div class="top-right"><span class="top-date" id="top-date"></span><button id="top-account" class="avatar avatar-button" data-account aria-label="Open my account" type="button"><span data-initial>T</span></button></div></header>
+      <main id="main" tabindex="-1"></main>
+    </div>
+    <nav id="mobile-nav" class="mobile-nav" aria-label="Mobile navigation"></nav>
+  </div>
+  <section id="loading" class="loading-state"><span class="brand-mark" aria-hidden="true">t.</span><p>Opening your space…</p></section>
+  <div id="storage-warning" class="storage-warning" role="status" hidden>Changes are kept for this visit only. Browser storage is unavailable; export your notes before leaving.</div>
+  <div id="toast" class="toast" role="status" hidden></div>
+  <dialog id="account-dialog" aria-labelledby="account-title"><div class="dialog-head"><h2 id="account-title">Your account</h2><button class="icon-button" id="close-account" type="button" aria-label="Close account">×</button></div><form id="profile-form" novalidate><label class="field"><span>Your name</span><input name="name" id="profile-name" required maxlength="60" autocomplete="given-name"></label><label class="field"><span>Email address</span><input name="email" id="profile-email" required type="email" maxlength="254" autocomplete="email"></label><p class="field-error" id="profile-error" hidden></p><button class="button primary" type="submit">Save details</button></form><div class="account-section"><h3>Your data</h3><p>Access is by name and email, without a password or purchase check. Notes and progress are saved only in this browser, not synced between devices.</p><div class="button-row"><button class="button secondary" id="export-data" type="button">Export my notes</button><button class="button secondary" id="import-data" type="button">Restore a copy</button></div><input id="import-file" type="file" accept=".json,application/json" hidden></div><button class="text-button signout" id="signout" type="button">Sign out <span aria-hidden="true">↗</span></button><p class="fineprint">Signing out keeps your saved progress and notes.</p></dialog>
+  <dialog id="contents-dialog" aria-labelledby="contents-title"><div class="dialog-head"><h2 id="contents-title">Contents</h2><button class="icon-button" id="close-contents" type="button" aria-label="Close contents">×</button></div><nav id="contents-list" aria-label="Book chapters"></nav></dialog>
+  <noscript><p class="noscript">Please enable JavaScript to open your reading and reflection space.</p></noscript>
+</body>
+</html>
